@@ -1,0 +1,10 @@
+overwrite: true
+schema: "src/**/*.graphql"
+generates:
+  ./src/types.ts:
+    plugins:
+      - "typescript"
+      - "typescript-resolvers"
+    config:
+      # ensure this path is relative to "packages/sov-api/src/graphql/types.ts"
+      contextType: ./context#MyContext
