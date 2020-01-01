@@ -1,2 +1,2 @@
-# ecommerce-app-server
-An ecommerce app build with prisma and apollo
+# prisma-server-boilerplate
+A prisma server boilerplate with authentication
